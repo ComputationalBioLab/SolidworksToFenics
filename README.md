@@ -1,5 +1,5 @@
 # SolidworksToFenics
-This repository contains some Pyhton scripts for converting a solidworks 3D mesh into somethiing readable by Fenics
+This repository contains some Pyhton scripts for converting a solidworks 3D mesh into a mesh readable by Fenics
 
 There are three possible ways:
 
