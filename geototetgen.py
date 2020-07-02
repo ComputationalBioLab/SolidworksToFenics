@@ -49,7 +49,7 @@ Usage: ./geototetgen.py filename.geo
 import sys
 
 if (len(sys.argv) != 2):
-    raise Exception('Only filename expected. Usage: ./geotofenics.py filename.geo')
+    raise Exception('Only filename expected. Usage: ./geototetgen.py filename.geo')
 
 sw_filename = sys.argv[1]
 output_node_filename = sw_filename + '.node';
