@@ -29,9 +29,9 @@ Usage: ./geototetgen.py filename.geo
     
     tetgen -q1.2 filename.geo 
     
-    or refine it with
+    or refine it with (limiting tetrahedral volume to 0.001 for example):
     
-    tetgen -r filename.geo
+    tetgen -r -a0.001 filename.geo
     
     to generate new tetgen meshes (filename.geo.1.node, filename.geo.1.ele)
     See the link below for the tetgen manual with all the possible 
